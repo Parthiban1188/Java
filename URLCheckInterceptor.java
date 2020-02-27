@@ -57,7 +57,7 @@ public class URLCheckInterceptor implements Interceptor {
 
 			if (userId == null) {
 				List<String> excludeSessionCheck = new ArrayList<String>(19);
-				excludeSessionCheck.add("nulllaunchEmpanelWeb");
+				excludeSessionCheck.add("nulllaunchEmpanelWeb"); 
 				excludeSessionCheck.add("nullloadDependantsWeb");
 				excludeSessionCheck.add("nullloadCitiesWeb");
 				excludeSessionCheck.add("nullchangeStateWeb");
